@@ -1,0 +1,96 @@
+.menu__mobile {
+    padding: 2rem 0;
+}
+
+.menu {
+    padding: 2rem 0;
+    height: 100vh;
+
+    background-color: var(--vinho);
+
+    position: fixed;
+    left: 100%;
+
+    top: 0;
+    overflow-x: hidden;
+    z-index: 1;
+    width: 100%;
+    
+}
+
+.menu__header__mobile {
+    padding: 0 calc(1.5rem * .5);
+}
+
+.menu__btn__open {
+    background-image: url(../../../img/icons/menu-hamburguer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 27.6px;
+    height: 27.6px;
+    display: flex;
+}
+
+.menu__btn__close {
+    background-image: url(../../../img/icons/menu-close.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 27.6px;
+    height: 27.6px;
+    display: flex;
+}
+
+.nav__link {
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.nav__link:hover {
+    color: var(--rosa);
+    filter: drop-shadow(0px 0px 6px #E31D81);
+}
+
+.botao__menu {
+    height: 3.875rem;
+    width: 10.75rem;
+
+    background-color: var(--vinho);
+    border: 1px solid var(--rosa);
+    border-radius: .5rem;
+
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+}
+
+.botao__menu:hover {
+    color: var(--rosa);
+    filter: drop-shadow(0px 0px 6px #E31D81);
+}
+
+@media screen and (min-width: 768px) {
+    .menu__header__mobile {
+        margin: 0 1.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .menu {
+        background-color: transparent;
+        height: auto;    
+        left: inherit;
+        position: relative;
+    
+        top: inherit;
+        overflow-x: inherit;
+        width: auto;
+    }
+
+    .menu__header__mobile {
+        margin: 0;
+        padding: 0 0;
+    }
+}

@@ -9,19 +9,44 @@
     <link rel="stylesheet" href="assets/css/base/base.css">
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho container">
+        <div class="menu__mobile d-flex d-lg-none justify-content-between">
+            <a href="#" class="logotipo text-decoration-none me-lg-0 m-0 p-0"><span class="logotipo--style">Crypto</span> Canvas</a>
+            <button class="bg-transparent border-0 d-lg-none p-0" id="menu__btn__open">
+                <span class="menu__btn__open"></span>
+            </button>
+        </div>
 
+        <nav class="menu d-flex flex-column flex-lg-row justify-content-between align-items-lg-center" id="menu__mobile">
+            <div class="menu__header__mobile d-flex align-items-center justify-content-between">
+                <a href="#" class="logotipo text-decoration-none me-lg-0 m-0 p-0"><span class="logotipo--style">Crypto</span> Canvas</a>
+                <button class="bg-transparent border-0 d-lg-none p-0" id="menu__btn__close">
+                    <span class="menu__btn__close"></span>
+                </button>
+            </div>
+
+            <ul class="menu__nav d-flex flex-column flex-lg-row gap-4 m-0 p-0">
+                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Início</a></li>
+                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Coleções</a></li>
+                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Eventos</a></li>
+                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Noticias</a></li>
+                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Sobre NFTs</a></li>
+            </ul>
+
+            <button type="button" class="align-self-center botao__menu p-0">Explorar NFTs</button>
+        </nav>
     </header>
 
     <main class="conteudo">
-
+        test test test
     </main>
 
     <footer class="rodape">
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
     <script src="assets/js/1-menu.js"></script>
     <script src="assets/js/2-accordion.js"></script>
 </body>

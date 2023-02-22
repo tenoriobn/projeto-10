@@ -2,6 +2,10 @@
     /* cores */
     --branco: #ffffff;
     --preto: #000000;
+    --rosa: #E31D81;
+    --rosa-clarinho: rgba(198, 18, 111, 0.15);
+    --vinho: #210513;
+    --vinho-claro: rgba(33, 5, 19, 0.92);
 
     /* fontes */
     --ubuntu: 'Ubuntu', sans-serif;
