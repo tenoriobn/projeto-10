@@ -10,35 +10,49 @@
 </head>
 <body>
     <header class="cabecalho container">
-        <div class="menu__mobile d-flex d-lg-none justify-content-between">
-            <a href="#" class="logotipo text-decoration-none me-lg-0 m-0 p-0"><span class="logotipo--style">Crypto</span> Canvas</a>
-            <button class="bg-transparent border-0 d-lg-none p-0" id="menu__btn__open">
-                <span class="menu__btn__open"></span>
-            </button>
-        </div>
-
-        <nav class="menu d-flex flex-column flex-lg-row justify-content-between align-items-lg-center" id="menu__mobile">
-            <div class="menu__header__mobile d-flex align-items-center justify-content-between">
+        <nav>
+            <div class="menu__mobile d-flex d-lg-none justify-content-between">
                 <a href="#" class="logotipo text-decoration-none me-lg-0 m-0 p-0"><span class="logotipo--style">Crypto</span> Canvas</a>
-                <button class="bg-transparent border-0 d-lg-none p-0" id="menu__btn__close">
-                    <span class="menu__btn__close"></span>
+                <button class="bg-transparent border-0 d-lg-none p-0" id="menu__btn__open">
+                    <span class="menu__btn__open"></span>
                 </button>
+            </div><!-- Navbar menu mobile -->
+
+            <div class="menu d-flex flex-column flex-lg-row justify-content-between align-items-lg-center" id="menu__mobile">
+                <div class="menu__header__mobile d-flex align-items-center justify-content-between">
+                    <a href="#" class="logotipo text-decoration-none me-lg-0 m-0 p-0"><span class="logotipo--style">Crypto</span> Canvas</a>
+                    <button class="bg-transparent border-0 d-lg-none p-0" id="menu__btn__close">
+                        <span class="menu__btn__close"></span>
+                    </button>
+                </div>
+
+                <ul class="menu__nav d-flex flex-column flex-lg-row gap-4 m-0 p-0">
+                    <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Início</a></li>
+                    <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Coleções</a></li>
+                    <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Eventos</a></li>
+                    <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Noticias</a></li>
+                    <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Sobre NFTs</a></li>
+                </ul>
+
+                <button type="button" class="align-self-center botao__menu p-0">Explorar NFTs</button>
+            </div><!-- Menu responsivo -->
+        </nav>
+
+        <section class="container chamada ps-0 pe-0">
+            <div class="d-flex flex-column align-items-center align-items-lg-start">
+                <h3 class="chamada__intertitulo mb-4">Plataforma NFT</h3>
+                <h2 class="chamada__subtitulo mb-4">Descubra o poder dos NFTs: Experimente o Futuro da Propriedade Digital</h2>
+                <p class="chamada__paragrafo">Você pode possuir uma peça de arte digital única e de valor inestimável que pode ser colecionada, vendida ou doada. Junte-se à revolução agora e aproveite a próxima geração de ativos digitais.</p>
+                <button class="botao__principal">Comunidade NFT</button>
             </div>
 
-            <ul class="menu__nav d-flex flex-column flex-lg-row gap-4 m-0 p-0">
-                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Início</a></li>
-                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Coleções</a></li>
-                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Eventos</a></li>
-                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Noticias</a></li>
-                <li class="list-unstyled nav__item text-center"><a href="#" class="nav__link text-decoration-none">Sobre NFTs</a></li>
-            </ul>
-
-            <button type="button" class="align-self-center botao__menu p-0">Explorar NFTs</button>
-        </nav>
+            <figure class="d-flex justify-content-center justify-content-lg-end m-0">
+                <img src="assets/img/image/img-chamada.png" alt="Imagem ilustrativa" class="img-fluid">
+            </figure>
+        </section>
     </header>
 
     <main class="conteudo">
-        test test test
     </main>
 
     <footer class="rodape">

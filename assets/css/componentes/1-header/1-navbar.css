@@ -45,6 +45,7 @@
     font-size: 1.25rem;
     font-weight: 400;
     line-height: 1.875rem;
+    transition: .3s;
 }
 
 .nav__link:hover {
@@ -64,11 +65,26 @@
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.875rem;
+
+    /* Efx */
+    background-image: linear-gradient(to right, var(--vinho), var(--vinho), var(--vinho), var(--vinho));
+    background-size: 300% 100%;
+    
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .botao__menu:hover {
-    color: var(--rosa);
-    filter: drop-shadow(0px 0px 6px #E31D81);
+    background-image: linear-gradient(to right, var(--vinho), var(--rosa-clarinho), var(--vinho), var(--rosa-clarinho));
+    box-shadow: 0 4px 24px 0 var(--rosa-clarinho);
+
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 @media screen and (min-width: 768px) {

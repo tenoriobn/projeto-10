@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 @import url(_variaveis.css);
 @import url(../componentes/1-header/1-navbar.css);
+@import url(../componentes/1-header/2-chamada.css);
 
 body {
     background-color: var(--vinho);
