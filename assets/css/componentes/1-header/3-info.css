@@ -1,0 +1,40 @@
+.info {
+    margin-top: 4.5rem;
+
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.info__itens {
+    flex-basis: 50%;
+    flex-grow: 1;
+
+    text-align: center;
+}
+
+.info__subtitulo {
+    color: var(--rosa);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+}
+
+.info__paragrafo {
+    line-height: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .info__itens {
+        flex-basis: inherit;
+        flex-grow: inherit;
+
+        text-align: inherit;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .info__subtitulo {
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}

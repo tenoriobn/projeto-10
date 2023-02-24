@@ -2,6 +2,7 @@
 @import url(_variaveis.css);
 @import url(../componentes/1-header/1-navbar.css);
 @import url(../componentes/1-header/2-chamada.css);
+@import url(../componentes/1-header/3-info.css);
 
 body {
     background-color: var(--vinho);
