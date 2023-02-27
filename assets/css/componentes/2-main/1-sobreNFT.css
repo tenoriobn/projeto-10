@@ -1,0 +1,54 @@
+.persona {
+    margin-bottom: 4.5rem;
+}
+
+.persona__img {
+    max-width: 20.5rem;
+}
+
+.persona__descricao {
+    background-color: var(--rosa-clarinho);
+}
+
+.persona__subtitulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
+.sobreNFT__subtitulo {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+    margin-bottom: 3.25rem;
+}
+
+.sobreNFT__paragrafo {
+    margin-bottom: 3.25rem;
+}
+
+@media screen and (min-width: 768px) {
+    .persona__img {
+        max-width: 23.75rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .persona {
+        max-width: 33.1563rem;
+    }
+    
+    .sobreNFT__descricao {
+        max-width: 34.375rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .persona {
+        max-width: 35rem;
+    }
+    
+    .sobreNFT__descricao {
+        max-width: 34.375rem;
+    }
+}
