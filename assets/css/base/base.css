@@ -4,6 +4,7 @@
 @import url(../componentes/1-header/2-chamada.css);
 @import url(../componentes/1-header/3-info.css);
 @import url(../componentes/2-main/1-sobreNFT.css);
+@import url(../componentes/2-main/2-produtos.css);
 
 body {
     background-color: var(--vinho);
@@ -25,7 +26,39 @@ body {
     color: var(--rosa);
 }
 
-.margin__secao {
+.subtitulo {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 3.375rem;
+}
+
+/* Margens pré-definidas */
+.mt-52 {
+    margin-top: 3.25rem;
+}
+.mb-52 {
+    margin-bottom: 3.25rem;
+}
+
+.mt-72 {
+    margin-top: 4.5rem;
+}
+.mb-72 {
+    margin-bottom: 4.5rem;
+}
+
+
+/* Paddings pré-definidos */
+.pt-52 {
+    padding-top: 3.25rem;
+}
+.pb-52 {
+    padding-bottom: 3.25rem;
+}
+
+.pt-72 {
     padding-top: 4.5rem;
+}
+.pb-72 {
     padding-bottom: 4.5rem;
 }
