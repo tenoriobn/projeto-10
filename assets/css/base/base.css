@@ -4,7 +4,7 @@
 @import url(../componentes/1-header/2-chamada.css);
 @import url(../componentes/1-header/3-info.css);
 @import url(../componentes/2-main/1-sobreNFT.css);
-@import url(../componentes/2-main/2-produtos.css);
+@import url(../componentes/2-main/2-populares.css);
 
 body {
     background-color: var(--vinho);
@@ -61,4 +61,12 @@ body {
 }
 .pb-72 {
     padding-bottom: 4.5rem;
+}
+
+
+@media screen and (min-width: 992px) {
+    .subtitulo {
+        font-size: 2.5rem;
+        line-height: 3.75rem;
+    }
 }

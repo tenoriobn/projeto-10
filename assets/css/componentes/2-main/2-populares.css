@@ -1,0 +1,56 @@
+.populares__card {
+    border: .0625rem solid var(--rosa);
+}
+
+.populares__card__body {
+    background-color: var(--rosa-clarinho);
+}
+
+.populares__card__titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+
+    max-width: 12.75rem;
+}
+
+.populares__card__btn {
+    background-color: var(--vinho);
+    border: .125rem solid var(--rosa);
+
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+
+    width: 12.75rem;
+    height: 3.875rem;
+
+    /* Efx */
+    background-image: linear-gradient(to right, var(--vinho), var(--vinho), var(--vinho), var(--vinho));
+    background-size: 300% 100%;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.populares__card__btn:hover {
+    background-image: linear-gradient(to right, var(--vinho), var(--rosa-clarinho), var(--vinho), var(--rosa-clarinho));
+    box-shadow: 0 4px 24px 0 var(--rosa-clarinho);
+
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+@media screen and (min-width: 1200px) {
+    .populares__card__btn {
+        width: 14.5831rem;
+    }
+}

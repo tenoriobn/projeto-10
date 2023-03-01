@@ -12,14 +12,6 @@
     line-height: 2.25rem;
 }
 
-.explicacao__subtitulo {
-    font-size: 2.25rem;
-    font-weight: 700;
-    line-height: 3.375rem;
-    margin-bottom: 3.25rem;
-}
-
-
 @media screen and (min-width: 992px) {
     .persona {
         max-width: 45%;
