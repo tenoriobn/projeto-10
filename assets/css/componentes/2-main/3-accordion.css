@@ -1,0 +1,64 @@
+.accordions {
+    background-color: var(--rosa-clarinho);
+    border: 1px solid var(--rosa);
+}
+
+.accordion__descricao {
+    background-color: var(--vinho-claro);
+
+    margin: 1rem;
+}
+
+.accordion {
+    width: 100%;
+    height: 170px;
+
+    border: 1px solid var(--rosa);
+
+    border-radius: .5rem;
+    box-shadow: 0 0 .5rem var(--preto);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.accordion::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--preto);
+    opacity: .3;
+}
+
+.accordion.active {
+    width: 100%;
+    height: 480px;
+}
+
+.accordion.active::before {
+    opacity: 0;
+}
+
+
+.accordion__img {
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 768px) {
+    .accordion {
+        width: 30%;
+        height: 480px;
+    
+        box-shadow: 0 0 .5rem var(--preto);
+        cursor: pointer;
+        border-radius: .5rem;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .accordion.active {
+        width: 50%;
+        height: 480px;
+    }
+}

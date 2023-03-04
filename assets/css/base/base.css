@@ -5,6 +5,7 @@
 @import url(../componentes/1-header/3-info.css);
 @import url(../componentes/2-main/1-sobreNFT.css);
 @import url(../componentes/2-main/2-populares.css);
+@import url(../componentes/2-main/3-accordion.css);
 
 body {
     background-color: var(--vinho);
