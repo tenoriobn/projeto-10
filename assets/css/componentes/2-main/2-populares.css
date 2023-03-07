@@ -49,7 +49,17 @@
     transition: all .5s ease-in-out;
 }
 
+@media screen and (min-width: 992px) {
+    .container__card {
+        min-width: 320px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
+    .container__card {
+        min-width: 336px;
+    }
+
     .populares__card__btn {
         width: 14.5831rem;
     }

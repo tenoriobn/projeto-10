@@ -1,5 +1,6 @@
 .persona__img {
     max-width: 31.3125rem;
+    filter: drop-shadow(0px 0px 150px #E31D81);
 }
 
 .persona__body{

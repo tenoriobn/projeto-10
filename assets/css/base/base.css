@@ -6,6 +6,7 @@
 @import url(../componentes/2-main/1-sobreNFT.css);
 @import url(../componentes/2-main/2-populares.css);
 @import url(../componentes/2-main/3-accordion.css);
+@import url(../componentes/3-footer/1-rodape.css);
 
 body {
     background-color: var(--vinho);
@@ -34,6 +35,10 @@ body {
 }
 
 /* Margens pré-definidas */
+.mb-32 {
+    margin-bottom: 2rem;
+}
+
 .mt-52 {
     margin-top: 3.25rem;
 }
@@ -47,7 +52,6 @@ body {
 .mb-72 {
     margin-bottom: 4.5rem;
 }
-
 
 /* Paddings pré-definidos */
 .pt-52 {
