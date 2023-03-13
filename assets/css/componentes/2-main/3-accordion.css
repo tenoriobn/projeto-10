@@ -16,6 +16,8 @@
     cursor: pointer;
     overflow: hidden;
     position: relative;
+
+    transition: width 0.5s ease;
 }
 
 .accordion::before {
@@ -35,11 +37,64 @@
     opacity: 0;
 }
 
+.accordion__texto {
+    text-align: center;
+    z-index: 10;
+    background-color: var(--vinho-claro);
+    width: 100%;
+    display: none;
+}
+
+.accordion.active .accordion__texto {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+}
+
+.accordion__subtitulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
+.accordion__btn {
+    background-color: var(--vinho);
+    border: .125rem solid var(--rosa);
+
+    color: var(--branco);
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.875rem;
+    letter-spacing: 0.02rem;
+    text-align: center;
+
+    width: 9.8125rem;
+    height: 3.875rem;
+
+    /* Efx */
+    background-image: linear-gradient(to right, var(--vinho), var(--vinho), var(--vinho), var(--vinho));
+    background-size: 300% 100%;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.accordion__btn:hover {
+    background-image: linear-gradient(to right, var(--vinho), var(--rosa-clarinho), var(--vinho), var(--rosa-clarinho));
+    box-shadow: 0 4px 24px 0 var(--rosa-clarinho);
+
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
+}
 
 .accordion__img {
     object-fit: cover;
 }
-
 
 @media screen and (min-width: 768px) {
     .accordion {
@@ -56,5 +111,12 @@
     .accordion.active {
         width: 50%;
         height: 480px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .accordion.active .accordion__texto {
+        gap: inherit;
+        flex-direction: row;
     }
 }
